@@ -66,7 +66,7 @@ export default function Home() {
 
   return (
     <div className='home-container'>
-      <a href="http://localhost:3000/login"> <BiLogIn color='#fff' /> </a>
+      <a href="https://app-dev-link.vercel.app/login"> <BiLogIn color='#fff' /> </a>
       <h1>Leonardo Corrêa</h1>
       <span>Veja meus links 👇</span>
 
