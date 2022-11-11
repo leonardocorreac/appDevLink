@@ -1,6 +1,7 @@
 import './home.css'
 import { useState, useEffect } from 'react'
 import { Social } from '../../components/Social'
+import {BiLogIn} from 'react-icons/bi'
 
 import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
@@ -65,6 +66,7 @@ export default function Home() {
 
   return (
     <div className='home-container'>
+      <a href="http://localhost:3000/login"> <BiLogIn color='#fff' /> </a>
       <h1>Leonardo Corrêa</h1>
       <span>Veja meus links 👇</span>
 
@@ -93,9 +95,6 @@ export default function Home() {
             </Social>
           </footer>
         )}
-
-
-
 
       </main>
     </div>
